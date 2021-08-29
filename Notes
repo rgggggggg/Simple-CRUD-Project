@@ -6,12 +6,13 @@
 </head>
 
 <body>
+	<b3>NOTES</b3>
 	<form method="post" action="server.php">
-    <textarea name = "newNote" rows = "15" columns = "40"></textarea>
-    <br><br>
-    <div class = "input">
-      <button class = "btn" type = "submit" name = "save">Save</button>
-    </div>
-  </form>
+    		<textarea name = "newNote" rows = "25" columns = "40"></textarea>
+    		<br><br>
+        <div class = "input">
+      		<button class = "btn" type = "submit" name = "save">Save</button>
+    	</div>
+  	</form>
 </body>
 </html>
