@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Notes</title>
+  <link rel = "stylesheet" type = "text/css" href = "style.css">
+</head>
+
+<body>
+	<form method="post" action="server.php">
+    <textarea name = "newNote" rows = "15" columns = "40"></textarea>
+    <br><br>
+    <div class = "input">
+      <button class = "btn" type = "submit" name = "save">Save</button>
+    </div>
+  </form>
+</body>
+</html>
